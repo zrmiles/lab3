@@ -1,0 +1,68 @@
+body {
+    background: #eee;
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  .info {
+    margin-top: 40px;
+  }
+  
+  .info__title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .info__fullname {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .info__nickname {
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .portfolio {
+    margin-top: 40px;
+  }
+  
+  .portfolio__btn {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: background 0.3s ease;
+  }
+  
+  .portfolio__btn:hover {
+    background: #0056b3;
+  }
+  
+  .portfolio__btn svg {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .swagger-screenshot {
+    display: none;
+    
+
+  }
+  
+  .swagger-screenshot.show {
+    display: block;
+  }
+  
